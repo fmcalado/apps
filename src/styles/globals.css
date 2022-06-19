@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply bg-[#15151e] text-[#ffdaa9];
+    @apply bg-[#15151e] text-[#ffdaa9] font-Exo;
   }
 }
 
