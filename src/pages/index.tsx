@@ -1,16 +1,16 @@
 import Head from "next/head";
+import Header from "../components/Header";
 
 const Home: React.FC = () => {
   return (
-    <div>
+    <>
       <Head>
         <title>Hello World</title>
-        <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="font-bold">
+      <div>
         Hello World
       </div>
-    </div>
+    </>
   );
 };
 
