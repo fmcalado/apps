@@ -10,6 +10,7 @@ module.exports = {
     extend: {
       fontFamily: {
         "Exo": ['"Exo 2"', ...defaultTheme.fontFamily.sans],
+        "Roboto": ['Roboto', ...defaultTheme.fontFamily.sans],
       },
     },
   },
