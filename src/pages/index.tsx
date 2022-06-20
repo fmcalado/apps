@@ -10,7 +10,7 @@ const HomePage: React.FC = () => {
   return (
     <>
       <Head>
-        <title>Calado App Store</title>
+        <title>Stack Apps</title>
         <meta
           name="description"
           content="Um website feito para divulgar aplicações Web e Mobile desenvolvidad por estudantes da Universidade CEUMA."

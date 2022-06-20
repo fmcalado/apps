@@ -1,11 +1,8 @@
 import React from 'react';
-// import Image from 'next/image';
+import Image from 'next/image';
 import Link from 'next/link';
 import { BiSearchAlt } from 'react-icons/bi';
 import { BsPlusLg } from 'react-icons/bs';
-
-// import caladoShortLogo from '../assets/calado.png';
-// import caladoFullLogo from '../assets/caladoLogo.png';
 
 const ResponsiveSearchButton = () => (
   <div className="w-1/3 flex">
@@ -30,31 +27,28 @@ const ResponsiveSearchButton = () => (
 );
 
 const ResponsiveLogo = () => (
-  <div className='w-1/3' />
-
-  // <div className="w-1/3 flex justify-center">
-  //   <Link href="/">
-  //     <a className="block md:hidden">
-  //       <Image
-  //         src={caladoShortLogo}
-  //         alt="Calado's Short Logo"
-  //         width={64}
-  //         height={64}
-  //       />
-  //     </a>
-  //   </Link>
-  //   <Link href="/">
-  //     <a className="hidden md:block relative">
-  //       <Image
-  //         src={caladoFullLogo}
-  //         alt="Calado's Full Logo"
-  //         width={192}
-  //         height={48}
-  //         layout="raw"
-  //       />
-  //     </a>
-  //   </Link>
-  // </div>
+  <div className="w-1/3 flex justify-center">
+    <Link href="/">
+      <a className="block md:hidden">
+        <Image
+          src={require('../assets/apps.svg')}
+          alt="Calado's Short Logo"
+          width={80}
+          height={80}
+        />
+      </a>
+    </Link>
+    <Link href="/">
+      <a className="hidden md:block relative">
+        <Image
+          src={require('../assets/stack-apps-full.svg')}
+          alt="Calado's Full Logo"
+          width={244.5}
+          height={60}
+        />
+      </a>
+    </Link>
+  </div>
 );
 
 const ResponsiveSubmitButton = () => (
