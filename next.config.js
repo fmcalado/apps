@@ -1,7 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  experimental: { images: { layoutRaw: true } }
-}
+  images: {
+    domains: ['arcanth.net'],
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;

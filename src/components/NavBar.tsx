@@ -6,11 +6,11 @@ import { BsPlusLg } from 'react-icons/bs';
 
 const NavBar: React.FC = () => {
   return (
-    <>
+    <div className="flex items-center justify-between w-full">
       <ResponsiveSearchButton />
       <ResponsiveLogo />
       <ResponsiveSubmitButton />
-    </>
+    </div>
   );
 };
 
