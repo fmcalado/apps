@@ -3,30 +3,14 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { BiSearchAlt } from 'react-icons/bi';
 import { BsPlusLg } from 'react-icons/bs';
-import { classNames } from '../utils';
 
-interface HeaderData {
-  type: 'LOGO' | 'FULL';
-}
-
-const NavBar: React.FC<HeaderData> = ({ type }) => {
+const NavBar: React.FC = () => {
   return (
-    <div
-      className={classNames(
-        type === 'LOGO' ? 'justify-center' : 'justify-between',
-        'w-full flex items-center',
-      )}
-    >
-      {type === 'LOGO' ? (
-        <ResponsiveLogo />
-      ) : (
-        <>
-          <ResponsiveSearchButton />
-          <ResponsiveLogo />
-          <ResponsiveSubmitButton />
-        </>
-      )}
-    </div>
+    <>
+      <ResponsiveSearchButton />
+      <ResponsiveLogo />
+      <ResponsiveSubmitButton />
+    </>
   );
 };
 

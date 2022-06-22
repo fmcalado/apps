@@ -32,7 +32,7 @@ const HomePage: React.FC = () => {
           content="Um website feito para divulgar aplicações Web e Mobile desenvolvidas por estudantes da Universidade CEUMA."
         />
       </Head>
-      <NavBar type="FULL" />
+      <NavBar />
       {/* Popular Section */}
       <h1 className="mt-8 flex flex-col items-center text-3xl md:text-4xl">
         Populares
