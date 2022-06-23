@@ -45,6 +45,7 @@ const ResponsiveLogo = () => (
           alt="Calado's Short Logo"
           width={80}
           height={80}
+          priority
         />
       </a>
     </Link>
@@ -55,6 +56,7 @@ const ResponsiveLogo = () => (
           alt="Calado's Full Logo"
           width={244.5}
           height={60}
+          priority
         />
       </a>
     </Link>

@@ -21,6 +21,7 @@ const AppCard: React.FC<AppCardData> = ({ appData }) => {
                 src={appData.thumbnailUrl}
                 alt={`${appData.title}'s Image`}
                 layout="fill"
+                priority
               />
             </div>
           </div>
