@@ -1,9 +1,11 @@
+import { v4 as uuidv4 } from 'uuid';
+
 import { lipsum } from '..';
 import { AppData } from '../../lib/types/AppData';
 
 export const mockApps: AppData[] = [
   {
-    id: 'asdasdasd',
+    id: uuidv4(),
     title: 'Arcanth Shop',
     description: lipsum,
     thumbnailUrl: 'https://arcanth.net/image-posts/62155851.png',
@@ -11,7 +13,7 @@ export const mockApps: AppData[] = [
     views: 3330,
   },
   {
-    id: 'asdasdasdasdasd',
+    id: uuidv4(),
     title: 'Arcanth Shop',
     description: lipsum,
     thumbnailUrl: 'https://arcanth.net/image-posts/62155851.png',
@@ -19,7 +21,15 @@ export const mockApps: AppData[] = [
     views: 320,
   },
   {
-    id: 'asdasdassssssd',
+    id: uuidv4(),
+    title: 'Arcanth Shop',
+    description: lipsum,
+    thumbnailUrl: 'https://arcanth.net/image-posts/62155851.png',
+    tags: ['Flutter', 'Supabase'],
+    views: 3230,
+  },
+  {
+    id: uuidv4(),
     title: 'Arcanth Shop',
     description: lipsum,
     thumbnailUrl: 'https://arcanth.net/image-posts/62155851.png',
@@ -27,15 +37,7 @@ export const mockApps: AppData[] = [
     views: 30,
   },
   {
-    id: 'asdasdasd',
-    title: 'Arcanth Shop',
-    description: lipsum,
-    thumbnailUrl: 'https://arcanth.net/image-posts/62155851.png',
-    tags: ['Flutter', 'Supabase'],
-    views: 30,
-  },
-  {
-    id: 'asdasdasdasdasd',
+    id: uuidv4(),
     title: 'Arcanth Shop',
     description: lipsum,
     thumbnailUrl: 'https://arcanth.net/image-posts/62155851.png',
@@ -43,7 +45,7 @@ export const mockApps: AppData[] = [
     views: 330,
   },
   {
-    id: 'asdasdassssssd',
+    id: uuidv4(),
     title: 'Arcanth Shop',
     description: lipsum,
     thumbnailUrl: 'https://arcanth.net/image-posts/62155851.png',
@@ -51,7 +53,7 @@ export const mockApps: AppData[] = [
     views: 30,
   },
   {
-    id: 'asdasdasd',
+    id: uuidv4(),
     title: 'Arcanth Shop',
     description: lipsum,
     thumbnailUrl: 'https://arcanth.net/image-posts/62155851.png',
@@ -59,7 +61,7 @@ export const mockApps: AppData[] = [
     views: 30,
   },
   {
-    id: 'asdasdasdasdasd',
+    id: uuidv4(),
     title: 'Arcanth Shop',
     description: lipsum,
     thumbnailUrl: 'https://arcanth.net/image-posts/62155851.png',
@@ -67,7 +69,7 @@ export const mockApps: AppData[] = [
     views: 30,
   },
   {
-    id: 'asdasdassssssd',
+    id: uuidv4(),
     title: 'Arcanth Shop',
     description: lipsum,
     thumbnailUrl: 'https://arcanth.net/image-posts/62155851.png',
@@ -75,7 +77,7 @@ export const mockApps: AppData[] = [
     views: 30,
   },
   {
-    id: 'asdasdasd',
+    id: uuidv4(),
     title: 'Arcanth Shop',
     description: lipsum,
     thumbnailUrl: 'https://arcanth.net/image-posts/62155851.png',
@@ -83,7 +85,7 @@ export const mockApps: AppData[] = [
     views: 30,
   },
   {
-    id: 'asdasdasdasdasd',
+    id: uuidv4(),
     title: 'Arcanth Shop',
     description: lipsum,
     thumbnailUrl: 'https://arcanth.net/image-posts/62155851.png',
@@ -91,7 +93,7 @@ export const mockApps: AppData[] = [
     views: 30,
   },
   {
-    id: 'asdasdassssssd',
+    id: uuidv4(),
     title: 'Arcanth Shop',
     description: lipsum,
     thumbnailUrl: 'https://arcanth.net/image-posts/62155851.png',

@@ -52,7 +52,7 @@ const HomePage: React.FC = () => {
         Lista de Apps
       </h1>
       <div className="mt-8 grid gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
-        {mockApps?.slice(0, 12).map(({ id, ...rest }) => (
+        {mockApps?.slice(3, 12).map(({ id, ...rest }) => (
           <AppCard key={id} appData={{ id, ...rest }} />
         ))}
       </div>
